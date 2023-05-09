@@ -10,7 +10,7 @@ export default async function Home() {
       <div>
         <h1 className="text-6xl font-bold mb-2 text-center">Dev Jobs Board</h1>
         <p className="text-xl mb-20 text-center">
-          Powered by Next.js, Xata, and Vercel
+          Powered by Next.js, Xata, and Vercel!
         </p>
         {jobs.map((job) => (
           <div
@@ -23,7 +23,6 @@ export default async function Home() {
             </h2>
 
             <p className="text-xl text-center">{job.geography}</p>
-            <p className="text-lg mb-4 text-center">{job.description}</p>
             <a
               href={job.link}
               className="text-lg border-2 rounded-md p-2 border-white hover:bg-white hover:text-black transition-colors"

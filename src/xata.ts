@@ -10,10 +10,25 @@ const tables = [
   {
     name: "job",
     columns: [
-      { name: "jobLink", type: "string" },
-      { name: "companyName", type: "string" },
-      { name: "jobTitle", type: "string" },
       { name: "geography", type: "string" },
+      {
+        name: "link",
+        type: "string",
+        notNull: true,
+        defaultValue: "https://jamesqquick.com/",
+      },
+      {
+        name: "company",
+        type: "string",
+        notNull: true,
+        defaultValue: "Test Company",
+      },
+      {
+        name: "title",
+        type: "string",
+        notNull: true,
+        defaultValue: "Developer Job",
+      },
     ],
   },
 ] as const;

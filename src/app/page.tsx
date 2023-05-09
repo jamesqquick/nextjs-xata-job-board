@@ -18,15 +18,13 @@ export default async function Home() {
             className="flex flex-col items-start border-2 border-gray-200 rounded-lg p-8 my-8"
           >
             <h2 className="text-2xl font-bold">
-              {job.jobTitle} -{' '}
-              <span className=" text-gray-200 font-normal">
-                {job.companyName}
-              </span>
+              {job.title} -{' '}
+              <span className=" text-gray-200 font-normal">{job.company}</span>
             </h2>
 
             <p className="text-xl mb-4 text-center">{job.geography}</p>
             <a
-              href={job.jobLink}
+              href={job.link}
               className="text-lg border-2 rounded-md p-2 border-white hover:bg-white hover:text-black transition-colors"
             >
               Apply Now

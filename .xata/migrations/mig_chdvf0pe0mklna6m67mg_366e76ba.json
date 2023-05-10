@@ -1,0 +1,18 @@
+{
+  "id": "mig_chdvf0pe0mklna6m67mg",
+  "parentID": "mig_chduu79e0mklna6m4k8g",
+  "checksum": "1:366e76ba026f90ce14f953fa1c922c11a402346f1a7e1ea28388350e6399cfc5",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "type",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Full-time"
+        },
+        "table": "job"
+      }
+    }
+  ]
+}

@@ -29,12 +29,7 @@ const tables = [
         notNull: true,
         defaultValue: "Developer Job",
       },
-      {
-        name: "type",
-        type: "string",
-        notNull: true,
-        defaultValue: "Full-time",
-      },
+      { name: "type", type: "string", notNull: true, defaultValue: "Fulltime" },
     ],
   },
 ] as const;

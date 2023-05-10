@@ -27,7 +27,7 @@ export default async function Home() {
               href={job.link}
               className="text-lg border-2 rounded-md p-2 border-white hover:bg-white hover:text-black transition-colors"
             >
-              Apply Now
+              Apply Now!
             </a>
           </div>
         ))}

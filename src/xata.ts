@@ -10,7 +10,7 @@ const tables = [
   {
     name: "job",
     columns: [
-      { name: "geography", type: "string" },
+      { name: "location", type: "string" },
       {
         name: "link",
         type: "string",

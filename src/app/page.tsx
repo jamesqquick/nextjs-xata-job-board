@@ -23,6 +23,7 @@ export default async function Home() {
             </h2>
 
             <p className="text-xl text-center">{job.location}</p>
+            <p className="text-xl text-center">{job.type}</p>
             <a
               href={job.link}
               className="text-lg border-2 rounded-md p-2 border-white hover:bg-white hover:text-black transition-colors"

@@ -1,0 +1,49 @@
+{
+  "id": "mig_chhpnqhfq7kd3l0g7c10",
+  "parentID": "mig_chhpnq9fq7kd3l0g7c00",
+  "checksum": "1:ffd96e30874437822ec10ac1ef30697ad525dc2c68d2e8199b6a12fda1714c17",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "location",
+          "type": "string"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "link",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "https://jamesqquick.com/"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "company",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Test Company"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "title",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Developer Job"
+        },
+        "table": "job"
+      }
+    }
+  ]
+}

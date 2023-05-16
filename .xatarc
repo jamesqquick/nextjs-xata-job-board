@@ -1,5 +1,5 @@
 {
-  "databaseURL": "https://James-Q-Quick-s-workspace-l5kbra.us-east-1.xata.sh/db/jqq-job-board",
+  "databaseURL": "https://demo-uni3q8.us-east-1.xata.sh/db/jqq-job-board",
   "codegen": {
     "output": "src/xata.ts"
   }
